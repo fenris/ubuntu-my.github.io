@@ -68,11 +68,11 @@ languages:
         name: Tentang Komuniti
         url: about
         weight: 21
-      - identifier: bylaws
-        parent: about-group
-        name: Legal
-        url: bylaws
-        weight: 22
+      #- identifier: bylaws
+      #  parent: about-group
+      #  name: Legal
+      #  url: bylaws
+      #  weight: 22
       - identifier: sponsors
         parent: about-group
         name: Penaja
