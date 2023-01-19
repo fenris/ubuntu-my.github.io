@@ -18,7 +18,7 @@ mirrors:
 Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
 In most cases, LTS version is recommended for stable use.
 
-[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Indonesian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
+[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Malaysian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
 [See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes]({{< param "ubuntuVersions.ltsReleaseNote" >}})
 
 ## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
@@ -68,14 +68,14 @@ You can download Desktop and Server CD/DVD images from Malaysian Mirror servers 
 - [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
 ## Use on Public Clouds
 - [Public cloud images](http://cloud-images.ubuntu.com/)
-- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/en_my/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 - Microsoft Azure: [Ubuntu on Azure](https://azure.microsoft.com/en-my/ubuntu/#overview), [Documentations](https://docs.microsoft.com/en-my/azure/virtual-machines/linux/quick-create-portal)
 - Google Cloud Platform: [Marketplace](https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal), [Documentations](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
 
 ## WSL (Windows Subsystem for Linux)
 If you are using latest version of Windows 10 or Windows 11, You can easily try out Ubuntu with WSL environment. 
 
-{{< button text="Install Ubuntu on WSL (WSL Indonesia User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
+{{< button text="Install Ubuntu on WSL (WSL Malaysia User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
 
 ## Linux Containers
 
@@ -92,9 +92,9 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
-## {{< button text="Forums (Indonesian)" href="https://forum.ubuntu-kr.org/" >}}
-{{< button text="Facebook Group (Malaysia)" href="https://fb.com/groups/ubuntumy" >}}
-## {{< button text="Mailing List (Indonesian)" href="https://groups.google.com/group/id-ubuntu/" >}}
+## {{< button text="Forums (Malaysian)" href="https://forum.ubuntu-kr.org/" >}}
+{{< button text="Facebook Group (Malaysian)" href="https://fb.com/groups/ubuntumy" >}}
+## {{< button text="Mailing List (Malaysian)" href="https://groups.google.com/group/id-ubuntu/" >}}
 ## {{< button text="Chat (Slack, IRC)" href="../chat" >}}
 
 {{< button text="Ask Ubuntu" href="https://askubuntu.com/" >}}

@@ -6,7 +6,6 @@ backgroundType: suru #light, dark, accent, suru, suru-topped, image
 ubuntuVersions:
     ltsVersion: "22.04 LTS"
     normalVersion: "21.10"
-    ltsReleaseNoteKor: https://blog.ubuntu-kr.org/2022/04/22/jamme-jellyfish-release-notes/
     ltsReleaseNote: https://discourse.ubuntu.com/t/jammy-jellyfish-release-notes/24668
     normalReleaseNote: https://discourse.ubuntu.com/t/impish-indri-release-notes/21951
 mirrors:
@@ -19,7 +18,7 @@ mirrors:
 Ubuntu {{< param "ubuntuVersions.ltsVersion" >}}, the latest LTS(Long term support) version provides 5 years of maintenance and security updates for free.
 In most cases, LTS version is recommended for stable use.
 
-[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Indonesian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
+[See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes (Malaysian translation)]({{< param "ubuntuVersions.ltsReleaseNoteKor" >}})
 [See Ubuntu {{< param "ubuntuVersions.ltsVersion" >}} release notes]({{< param "ubuntuVersions.ltsReleaseNote" >}})
 
 ## Ubuntu {{< param "ubuntuVersions.normalVersion" >}}
@@ -50,34 +49,33 @@ You may check out Ubuntu release cycle information on ubuntu.com
 {{< button text="Raspberry Pi" href="https://ubuntu.com/download/raspberry-pi" icon="switcher-dashboard" >}}
 {{< button text="Internet of Things (Ubuntu Core)" href="https://ubuntu.com/download/iot" icon="switcher-dashboard" >}}
 
-## From Indonesia Mirrors
-You can download Desktop and Server CD/DVD images from Indonesian Mirror servers with fast speed.
+## From Malaysia Mirrors
+You can download Desktop and Server CD/DVD images from Malaysian Mirror servers with fast speed.
 
-{{< button text="KAIST" href="http://ftp.kaist.ac.kr/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Kakao Corp." href="https://mirror.kakao.com/ubuntu-releases/" icon="begin-downloading" >}}
-{{< button text="LANET" href="https://ftp.lanet.kr/ubuntu-releases/" icon="begin-downloading" >}}
-{{< button text="AniGil Linux Archive" href="https://mirror.anigil.com/ubuntu-cd/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Harukasan (Pukyong University)" href="https://ftp.harukasan.org/ubuntu-releases/HEADER.html" icon="begin-downloading" >}}
-{{< button text="Misaka Mikoto Network Mirror" href="https://mirror.misakamikoto.network/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="GB Network Solutions" href="https://mirrors.gbnetwork.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Gigabit Hosting" href="http://my.mirrors.thegigabit.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="IPServerone Solutions Sdn Bhd" href="https://mirrors.ipserverone.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="myduniahosting.com" href="http://ubuntu.mirror.myduniahost.com/ubuntu-releases/" icon="begin-downloading" >}}
+{{< button text="Tuxuri" href="http://ubuntu.tuxuri.com/ubuntu-releases/" icon="begin-downloading" >}}
 
 [See list of All Official Archive Mirrors for Ubuntu on Launchpad.net](https://launchpad.net/ubuntu/+archivemirrors)
 
 # How to install and use
 
 ## Desktop & Server
-- Desktop: [Installation guide (Indonesian)](http://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+- Desktop: [Installation guide (Malaysian)](http://wiki.ubuntu.com/index.php/Getting_Started), [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 - Server: [Installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-server)
 - [List of Certified Ubuntu hardwares](https://ubuntu.com/certified)
 ## Use on Public Clouds
 - [Public cloud images](http://cloud-images.ubuntu.com/)
-- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+- Amazon Web Services: [Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=565feec9-3d43-413e-9760-c651546613f2), [Documentations](https://docs.aws.amazon.com/en_my/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 - Microsoft Azure: [Ubuntu on Azure](https://azure.microsoft.com/ko-kr/ubuntu/#overview), [Documentations](https://docs.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-portal)
 - Google Cloud Platform: [Marketplace](https://console.cloud.google.com/marketplace/product/ubuntu-os-cloud/ubuntu-focal), [Documentations](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
 
 ## WSL (Windows Subsystem for Linux)
 If you are using latest version of Windows 10 or Windows 11, You can easily try out Ubuntu with WSL environment. 
 
-{{< button text="Install Ubuntu on WSL (WSL Indonesia User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
+{{< button text="Install Ubuntu on WSL (WSL Malaysia User Group Documentations)" href="https://wslhub.com/wsl-firststep/firststep/install/" icon="begin-downloading" >}}
 
 ## Linux Containers
 
@@ -94,10 +92,10 @@ Images for System Containers (VM Style Containers): Used with LXD and LXC for re
 # Get help
 If you need help while using, You can get help on online community such as forums and online chat.
 
-{{< button text="Forums (Indonesian)" href="https://forum.ubuntu-kr.org/" >}}
-{{< button text="Facebook Group (Indonesian)" href="https://fb.com/groups/ubuntu.ko" >}}
-{{< button text="Mailing List (Indonesian)" href="https://groups.google.com/group/id-ubuntu/" >}}
-{{< button text="Chat (Slack, IRC)" href="../chat" >}}
+## {{< button text="Forums (Malaysian)" href="https://forum.ubuntu-kr.org/" >}}
+{{< button text="Facebook Group (Malaysian)" href="https://fb.com/groups/ubuntumy" >}}
+## {{< button text="Mailing List (Malaysian)" href="https://groups.google.com/group/id-ubuntu/" >}}
+## {{< button text="Chat (Slack, IRC)" href="../chat" >}}
 
 {{< button text="Ask Ubuntu" href="https://askubuntu.com/" >}}
 {{< button text="Ubuntu Forums" href="https://ubuntuforums.org/" >}}
@@ -105,7 +103,7 @@ If you need help while using, You can get help on online community such as forum
 
 # Commercial technical support
 
-{{< info title="Note" content="Ubuntu Indonesia Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
+{{< info title="Note" content="Ubuntu Malaysia Community is a non-profit community consists of users and developers and independent from Canonical Ltd. We do not provide any commercial technical support and answers for related inqueires. If you need commercial support for Ubuntu, Check out informations below and get support from Canonical Ltd. or Canonical Partners.">}}
 
 ## Ubuntu Advantage
 Get commercial technical support from Canonical Ltd. the publisher of Ubuntu with Ubuntu Advantage program.
